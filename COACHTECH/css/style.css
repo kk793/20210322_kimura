@@ -1,0 +1,507 @@
+@charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+#eyecatch {
+  height: 800px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch p {
+  position: relative;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+.card1 {
+  position:relative;
+  position:absolute;
+  top: 136%;
+  left: 50%;
+  width: 500px;
+  background-color: #fff;
+  padding: 0px 0px 6.5px; /* 上20px 左右12px 下10px */
+  color: #333;
+  border-radius: 3px;
+  transition: 0.3s; 
+}
+.title{
+  font-size:14px;
+}
+.text{
+  padding: 10px 10px;
+  font-size:12px;
+}
+.news 
+{
+  position: relative;
+position:absolute;
+top:136%;
+left:88.5%;
+background-color: black;
+background-size:cover;
+padding: 20px 50px 20px;
+color:white;
+}
+.main
+{background-color: #000;}
+
+.title2
+{
+  color: #fff;
+  position: relative;
+  padding-top:100px;
+  padding-left:200px;
+  padding-right:100px;
+  z-index:2;
+}
+.sentence2
+{
+  padding: 10px 0px;
+  font-size:12px;
+  color: #fff;
+  position: relative;
+  padding-top:30px;
+  padding-left:200px;
+  padding-right:310px;
+  z-index:2;
+}
+
+.sentence2-1{
+  border: solid;
+  border:4px,solid;
+  color: #000;
+  border: solid;
+  border-color:black;
+  font-size:12px;
+  background-color:white;
+  position:relative;
+  left:16%;
+  padding-top:10px;
+  padding-left:20px;
+  padding-right:15px;
+  padding-bottom:10px;
+  width:100px;
+  height:15px;
+  z-index:3;
+
+}
+
+.orange
+{
+z-index:1 ;
+position: relative;
+position: absolute;
+top:150%;
+left:70%;
+width: 300px;
+height: 200px;;
+}
+
+body {
+  background-color:black;
+  background:linear-gradient(180deg,black 0%,black 2000px,white 1000px,white 100%);
+}
+
+
+
+.service
+{background-color: #808080;
+padding-left:50%;
+padding-bottom:90%;
+position:relative; 
+}
+
+.card {
+  width: 350px;
+  padding: 50px 30px 30px; /* 上20px 左右12px 下30px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  position: relative;
+  position:absolute;
+  top:200%;
+  left:30%;
+  background-color:white;
+  z-index:2;
+}
+
+.title4,
+.text4 {
+  margin:10px;
+  font-size:14px;
+}
+
+.text4-0 {
+  margin:10px;
+  font-size: 14px;
+}
+
+.text4-1 {
+  padding: 5px 0;
+  font-size: 12px;
+  border:solid;
+  border-color:black;
+  border:0.3px solid;
+  text-align:center;
+  position:relative;
+  padding-top:5px;
+  padding-left:3px;
+  width:100px;
+  height:15px;
+  left:70%;
+  
+  }
+  .service1
+{
+position: relative;
+position: absolute;
+top:190%;
+left:50%;
+width: 600px;
+height: 400px;;
+z-index:1;
+}
+.card2 {
+  width: 350px;
+  padding: 50px 30px 30px; /* 上20px 左右12px 下30px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  position:absolute;
+  top:320%;
+  left:30%;
+  background-color:white;
+  z-index:2;
+}
+
+.title4,
+.text4 {
+  margin:10px;
+  font-size:14px;
+}
+
+.text4-0 {
+  margin:10px;
+  font-size: 14px;
+}
+
+.text4-1 {
+  padding: 5px 0;
+  font-size: 12px;
+  border:solid;
+  border-color:black;
+  border:0.3px solid;
+  text-align:center;
+  position:relative;
+  padding-top:5px;
+  padding-left:3px;
+  width:100px;
+  height:15px;
+  left:70%;
+  
+  }
+  .service2
+{
+position: absolute;
+top:300%;
+left:0%;
+width: 600px;
+height: 400px;
+z-index:1;
+}
+#company {
+  top: 10px;
+  height: 150px;
+  width:550px;
+  background: url(../img/company.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.companytext{
+  position:relative;
+  padding-top:10%;
+  padding-left:37%;
+  font-size:24px;
+  color:white;
+  z-index:2;
+
+}
+.kigyou{
+  position:relative;
+  padding-left:42%;
+  padding-top:1%;;
+  font-size:12px;
+  color:white;
+  z-index:2;
+}
+
+#recruit {
+  top: 10px;;
+  height: 150px;
+  width:550px;
+  background: url(../img/recruit.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.recruittext{
+  position:relative;
+  padding-top:10%;
+  padding-left:39%;
+  font-size:24px;
+  color:white;
+  z-index:2;
+
+}
+.saiyou{
+  position:relative;
+  padding-left:42%;
+  padding-top:1%;
+  font-size:12px;
+  color:white;
+  z-index:2;
+}
+.center{display: flex;
+justify-content:space-around;}
+
+.question{position: relative;
+padding-left:20%;
+font-size:12px;
+left:23%;
+background-color:black;}
+.FAQ{
+  top:20px;
+  left:30px;
+  right:30px;
+  position:relative;
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:3%;
+  color:white;
+background-color:black;}
+
+ #contact {
+   z-index:  1;
+  top: 40px;
+  height: 500px;
+  background: url(../img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} 
+.contacttext1{
+  padding-top:10%;
+  font-size:24px;text-align:center;color:white;}
+.contacttext2{
+  padding-top:10px;
+  font-size:12px;text-align:center;color: white;}
+.contacttext3{
+  padding-top:20px;
+  font-size:36px;text-align:center;color: white;}
+.contacttext4{
+  padding-top:20px;
+  font-size:10px;text-align:center;color: white;}
+.contacttext5
+{ position: relative;
+  padding-top:20px;
+  font-size:12px;text-align:center;
+  left:45.5%;
+  border:solid;
+  border-color:white;
+  border:0.3px solid;
+  color: white;
+  top:20px;
+  width:100px;
+  height:15px;
+  padding:5px 10px;
+  
+}
+
+.footer1 {
+  z-index:3;
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  z-index:3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  z-index:3;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul{
+  z-index:3;
+  display: flex;
+}
+
+.header-nav li {
+  z-index:3;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  z-index:3;
+  color: #f2f2f2;
+}
+
+#footer {
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color:black;
+  color:white;
+}
