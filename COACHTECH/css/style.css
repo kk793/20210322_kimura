@@ -140,11 +140,11 @@ input, select {
   position: relative;
 }
 
-#eyecatch p {
+.kikai {
   position: relative;
   position: absolute;
-  top: 60%;
-  left: 40%;
+  top: 70%;
+  left: 30%;
   transform: translate(-50%, -50%);
   font-size: 60px;
   font-style: italic;
@@ -155,11 +155,11 @@ input, select {
 .card1 {
   position:relative;
   position:absolute;
-  top: 136%;
+  bottom:0%;
   left: 50%;
   width: 500px;
   background-color: #fff;
-  padding: 0px 0px 6.5px; /* 上20px 左右12px 下10px */
+  padding: 0px 0px 6.5px; 
   color: #333;
   border-radius: 3px;
   transition: 0.3s; 
@@ -173,10 +173,10 @@ input, select {
 }
 .news 
 {
-  position: relative;
-position:absolute;
-top:136%;
-left:88.5%;
+position: relative;
+top:91%;
+bottom:0%;
+left:88%;
 background-color: black;
 background-size:cover;
 padding: 20px 50px 20px;
@@ -189,6 +189,7 @@ color:white;
 {
   color: #fff;
   position: relative;
+  font-size:24px;
   padding-top:100px;
   padding-left:200px;
   padding-right:100px;
@@ -231,10 +232,10 @@ color:white;
 z-index:1 ;
 position: relative;
 position: absolute;
-top:150%;
-left:70%;
-width: 300px;
-height: 200px;;
+top:160%;
+left:60%;
+width: 500px;
+height: 270px;
 }
 
 body {
@@ -246,6 +247,7 @@ body {
 
 .service
 {background-color: #808080;
+top:122px;
 padding-left:50%;
 padding-bottom:90%;
 position:relative; 
@@ -259,13 +261,13 @@ position:relative;
   border-radius: 3px;
   position: relative;
   position:absolute;
-  top:200%;
+  top:230%;
   left:30%;
   background-color:white;
   z-index:2;
 }
 
-.title4,
+.title4
 .text4 {
   margin:10px;
   font-size:14px;
@@ -295,7 +297,7 @@ position:relative;
 {
 position: relative;
 position: absolute;
-top:190%;
+top:220%;
 left:50%;
 width: 600px;
 height: 400px;;
@@ -305,8 +307,9 @@ z-index:1;
   width: 350px;
   padding: 50px 30px 30px; /* 上20px 左右12px 下30px */
   color: #333;
-  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border: 1px solid hsl(180, 2%, 92%); /* ボックスの周囲に線を引きます */
   border-radius: 3px;
+  position:relative;
   position:absolute;
   top:320%;
   left:30%;
@@ -342,6 +345,7 @@ z-index:1;
   }
   .service2
 {
+  position:relative;
 position: absolute;
 top:300%;
 left:0%;
@@ -411,11 +415,12 @@ justify-content:space-around;}
 padding-left:20%;
 font-size:12px;
 left:23%;
-background-color:black;}
+background-color:black;
+width:100px;}
 .FAQ{
+  width:700px;
   top:20px;
-  left:30px;
-  right:30px;
+  left:240px;
   position:relative;
   padding-top:2%;
   padding-bottom:2%;
@@ -461,7 +466,8 @@ background-color:black;}
 }
 
 .footer1 {
-  z-index:3;
+  position:relative;
+  padding-top:30px;
   height: 70px;
   background: #000;
 }
