@@ -240,15 +240,16 @@ height: 270px;
 
 body {
   background-color:black;
-  background:linear-gradient(180deg,black 0%,black 2000px,white 1000px,white 100%);
+  background:linear-gradient(180deg,black 0%,black 37%,white 37%,white 40%,#808080 40%,#808080 70%,white 70%,white 100%);
 }
 
 
 
 .service
-{background-color: #808080;
-top:122px;
+{
+top:150px;
 padding-left:50%;
+padding-top:0%;
 padding-bottom:90%;
 position:relative; 
 }
@@ -354,13 +355,14 @@ height: 400px;
 z-index:1;
 }
 #company {
-  top: 10px;
+  top: 5px;
   height: 150px;
   width:550px;
   background: url(../img/company.jpeg) no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   position: relative;
+  background-color:white;
 }
 
 .companytext{
@@ -382,7 +384,7 @@ z-index:1;
 }
 
 #recruit {
-  top: 10px;;
+  top: 5px;
   height: 150px;
   width:550px;
   background: url(../img/recruit.jpg) no-repeat;
@@ -419,7 +421,7 @@ background-color:black;
 width:100px;}
 .FAQ{
   width:700px;
-  top:20px;
+  top:30px;
   left:240px;
   position:relative;
   padding-top:2%;
